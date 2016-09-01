@@ -1,0 +1,1002 @@
+[
+    {
+        "food": "kale",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "67",
+        "nutrients": {
+            "fat": 0.5,
+            "carbohydrate": 6.7,
+            "fiber": 1.3,
+            "sugar": 0,
+            "protein": 2.2,
+            "sodium": 28.8,
+            "magnesium": 22.8,
+            "calcium": 90.5,
+            "potassium": 299,
+            "iron": 1.1,
+            "vitaminA": 10302,
+            "vitaminC": 80.4
+        }
+    },
+    {
+        "food": "spinach",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "30",
+        "nutrients": {
+            "fat": 0.1,
+            "carbohydrate": 1.1,
+            "fiber": 0.7,
+            "sugar": 0.1,
+            "protein": 0.9,
+            "sodium": 23.7,
+            "magnesium": 23.7,
+            "calcium": 29.7,
+            "potassium": 167,
+            "iron": 0.8,
+            "vitaminA": 2813,
+            "vitaminC": 8.4
+        }
+    },
+    {
+        "food": "lettuce",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "47",
+        "nutrients": {
+            "fat": 0.1,
+            "carbohydrate": 1.6,
+            "fiber": 1.0,
+            "sugar": 0.6,
+            "protein": 0.6,
+            "sodium": 3.8,
+            "magnesium": 6.6,
+            "calcium": 15.5,
+            "potassium": 116,
+            "iron": 0.5,
+            "vitaminA": 4094,
+            "vitaminC": 11.3
+        }
+    },
+    {
+        "food": "carrot",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "128",
+        "nutrients": {
+            "fat": 0.3,
+            "carbohydrate": 12.3,
+            "fiber": 3.6,
+            "sugar": 6.1,
+            "protein": 1.2,
+            "sodium": 88.3,
+            "magnesium": 15.4,
+            "calcium": 44.2,
+            "potassium": 410,
+            "iron": 0.4,
+            "vitaminA": 21383,
+            "vitaminC": 7.6
+        }
+    },
+    {
+        "food": "beets",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "136",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 13,
+            "fiber": 3.8,
+            "sugar": 9.2,
+            "protein": 2.2,
+            "sodium": 106,
+            "magnesium": 31.3,
+            "calcium": 21.8,
+            "potassium": 442,
+            "iron": 1.1,
+            "vitaminA": 44.9,
+            "vitaminC": 6.7
+        }
+    },
+    {
+        "food": "asparagus",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "134",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 5.3,
+            "fiber": 2.8,
+            "sugar": 2.5,
+            "protein": 2.9,
+            "sodium": 2.7,
+            "magnesium": 18.8,
+            "calcium": 32.2,
+            "potassium": 271,
+            "iron": 2.9,
+            "vitaminA": 1013,
+            "vitaminC": 7.5
+        }
+    },
+    {
+        "food": "broccoli",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "91",
+        "nutrients": {
+            "fat": 0.3,
+            "carbohydrate": 6,
+            "fiber": 2.4,
+            "sugar": 1.5,
+            "protein": 2.6,
+            "sodium": 30,
+            "magnesium": 19.1,
+            "calcium": 42.8,
+            "potassium": 228,
+            "iron": 0.7,
+            "vitaminA": 567,
+            "vitaminC": 81.2
+        }
+    },
+    {
+        "food": "cauliflower",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "100",
+        "nutrients": {
+            "fat": 0.1,
+            "carbohydrate": 5.3,
+            "fiber": 2.5,
+            "sugar": 2.4,
+            "protein": 2,
+            "sodium": 30,
+            "magnesium": 15,
+            "calcium": 22,
+            "potassium": 303,
+            "iron": 0.4,
+            "vitaminA": 13,
+            "vitaminC": 46.4
+        }
+    },
+    {
+        "food": "cabbage",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "89",
+        "nutrients": {
+            "fat": 0.1,
+            "carbohydrate": 5.2,
+            "fiber": 2.2,
+            "sugar": 2.8,
+            "protein": 1.1,
+            "sodium": 16,
+            "magnesium": 10.7,
+            "calcium": 35.6,
+            "potassium": 151,
+            "iron": 0.4,
+            "vitaminA": 87.2,
+            "vitaminC": 32.6
+        }
+    },
+    {
+        "food": "celery",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "101",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 3.5,
+            "fiber": 1.6,
+            "sugar": 1.8,
+            "protein": 0.7,
+            "sodium": 80.8,
+            "magnesium": 11.1,
+            "calcium": 40.4,
+            "potassium": 263,
+            "iron": 0.2,
+            "vitaminA": 453,
+            "vitaminC": 3.1
+        }
+    },
+    {
+        "food": "zucchini",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "124",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 4.2,
+            "fiber": 1.4,
+            "sugar": 2.1,
+            "protein": 1.5,
+            "sodium": 12.4,
+            "magnesium": 21.1,
+            "calcium": 18.6,
+            "potassium": 325,
+            "iron": 0.4,
+            "vitaminA": 248,
+            "vitaminC": 21.1
+        }
+    },
+    {
+        "food": "jalapeno",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "90",
+        "nutrients": {
+            "fat": 0.6,
+            "carbohydrate": 5.6,
+            "fiber": 2.5,
+            "sugar": 3.1,
+            "protein": 1.2,
+            "sodium": 0.9,
+            "magnesium": 17.1,
+            "calcium": 9.0,
+            "potassium": 194,
+            "iron": 0.6,
+            "vitaminA": 719,
+            "vitaminC": 39.9
+        }
+    },
+    {
+        "food": "brussel-sprouts",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "88",
+        "nutrients": {
+            "fat": 0.3,
+            "carbohydrate": 7.9,
+            "fiber": 3.3,
+            "sugar": 1.9,
+            "protein": 3.0,
+            "sodium": 22.0,
+            "magnesium": 20.2,
+            "calcium": 1.2,
+            "potassium": 342,
+            "iron": 1.2,
+            "vitaminA": 664,
+            "vitaminC": 74.8
+        }
+    },
+    {
+        "food": "radish",
+        "type": "vegetable",
+        "serving": "1 Cup",
+        "cup-weight": "116",
+        "nutrients": {
+            "fat": 0.1,
+            "carbohydrate": 4.0,
+            "fiber": 1.9,
+            "sugar": 2.2,
+            "protein": 0.8,
+            "sodium": 45.2,
+            "magnesium": 11.6,
+            "calcium": 29,
+            "potassium": 270,
+            "iron": 0.4,
+            "vitaminA": 8.1,
+            "vitaminC": 17.2
+        }
+    },
+    {
+        "food": "coconut",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "80",
+        "nutrients": {
+            "fat": 26.8,
+            "carbohydrate": 12.2,
+            "fiber": 7.2,
+            "sugar": 5.0,
+            "protein": 2.7,
+            "sodium": 16,
+            "magnesium": 25.6,
+            "calcium": 11.2,
+            "potassium": 285,
+            "iron": 1.9,
+            "vitaminA": 0,
+            "vitaminC": 2.6
+        }
+    },
+    {
+        "food": "almond",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "143",
+        "nutrients": {
+            "fat": 70.7,
+            "carbohydrate": 31.0,
+            "fiber": 17.4,
+            "sugar": 5.6,
+            "protein": 30.3,
+            "sodium": 1.4,
+            "magnesium": 383,
+            "calcium": 378,
+            "potassium": 1008,
+            "iron": 5.3,
+            "vitaminA": 1.4,
+            "vitaminC": 0.0
+        }
+    },
+    {
+        "food": "cashew",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "150",
+        "nutrients": {
+            "fat": 65.7,
+            "carbohydrate": 49.1,
+            "fiber": 4.8,
+            "sugar": 8.9,
+            "protein": 27.3,
+            "sodium": 18.0,
+            "magnesium": 438,
+            "calcium": 55.5,
+            "potassium": 990,
+            "iron": 10.1,
+            "vitaminA": 0.0,
+            "vitaminC": 0.8
+        }
+    },
+    {
+        "food": "hemp-seed",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "120",
+        "nutrients": {
+            "fat": 54.0,
+            "carbohydrate": 8.0,
+            "fiber": 4.0,
+            "sugar": 0.0,
+            "protein": 44.0,
+            "sodium": 0.0,
+            "magnesium": 768,
+            "calcium": 0.0,
+            "potassium": 0.0,
+            "iron": 11.5,
+            "vitaminA": 0.0,
+            "vitaminC": 0.0
+        }
+    },
+    {
+        "food": "peanut",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "146",
+        "nutrients": {
+            "fat": 72.5,
+            "carbohydrate": 31.4,
+            "fiber": 11.7,
+            "sugar": 6.1,
+            "protein": 34.6,
+            "sodium": 8.8,
+            "magnesium": 257,
+            "calcium": 78.8,
+            "potassium": 961,
+            "iron": 3.3,
+            "vitaminA": 0.0,
+            "vitaminC": 0.0
+        }
+    },
+    {
+        "food": "chestnut",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "145",
+        "nutrients": {
+            "fat": 3.3,
+            "carbohydrate": 66.0,
+            "fiber": 11.7,
+            "sugar": 0.0,
+            "protein": 3.5,
+            "sodium": 4.4,
+            "magnesium": 46.4,
+            "calcium": 39.2,
+            "potassium": 751,
+            "iron": 1.5,
+            "vitaminA": 40.6,
+            "vitaminC": 62.4
+        }
+    },
+    {
+        "food": "hazelnut",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "115",
+        "nutrients": {
+            "fat": 69.9,
+            "carbohydrate": 19.2,
+            "fiber": 11.2,
+            "sugar": 5.0,
+            "protein": 17.2,
+            "sodium": 0,
+            "magnesium": 187,
+            "calcium": 131,
+            "potassium": 782,
+            "iron": 5.4,
+            "vitaminA": 23.0,
+            "vitaminC": 7.2
+        }
+    },
+    {
+        "food": "pecan",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "109",
+        "nutrients": {
+            "fat": 78.5,
+            "carbohydrate": 15.3,
+            "fiber": 10.5,
+            "sugar": 4.3,
+            "protein": 10.0,
+            "sodium": 0,
+            "magnesium": 132,
+            "calcium": 76.3,
+            "potassium": 447,
+            "iron": 2.8,
+            "vitaminA": 61.0,
+            "vitaminC": 1.2
+        }
+    },
+    {
+        "food": "pistachio",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "123",
+        "nutrients": {
+            "fat": 54.7,
+            "carbohydrate": 34.4,
+            "fiber": 12.7,
+            "sugar": 9.4,
+            "protein": 25.3,
+            "sodium": 1.2,
+            "magnesium": 149,
+            "calcium": 132,
+            "potassium": 1261,
+            "iron": 5.1,
+            "vitaminA": 680,
+            "vitaminC": 6.2
+        }
+    },
+    {
+        "food": "walnut",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "117",
+        "nutrients": {
+            "fat": 76.3,
+            "carbohydrate": 16.0,
+            "fiber": 7.8,
+            "sugar": 3.1,
+            "protein": 17.8,
+            "sodium": 2.3,
+            "magnesium": 185,
+            "calcium": 115,
+            "potassium": 516,
+            "iron": 3.4,
+            "vitaminA": 23.4,
+            "vitaminC": 1.5
+        }
+    },
+    {
+        "food": "macadamia",
+        "type": "nut",
+        "serving": "1 Cup",
+        "cup-weight": "134",
+        "nutrients": {
+            "fat": 102,
+            "carbohydrate": 19.1,
+            "fiber": 11.5,
+            "sugar": 6.1,
+            "protein": 10.6,
+            "sodium": 6.7,
+            "magnesium": 174,
+            "calcium": 114,
+            "potassium": 493,
+            "iron": 4.9,
+            "vitaminA": 0,
+            "vitaminC": 1.6
+        }
+    },
+    {
+        "food": "banana",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "225",
+        "nutrients": {
+            "fat": 0.74,
+            "carbohydrate": 51.4,
+            "fiber": 5.8,
+            "sugar": 27.5,
+            "protein": 2.5,
+            "sodium": 2,
+            "magnesium": 61,
+            "calcium": 11,
+            "potassium": 806,
+            "iron": 0.6,
+            "vitaminA": 144,
+            "vitaminC": 19.6
+        }
+    },
+    {
+        "food": "date",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "147",
+        "nutrients": {
+            "fat": 0.6,
+            "carbohydrate": 110.0,
+            "fiber": 12,
+            "sugar": 93,
+            "protein": 3.6,
+            "sodium": 3,
+            "magnesium": 63,
+            "calcium": 57,
+            "potassium": 964,
+            "iron": 1.5,
+            "vitaminA": 15,
+            "vitaminC": 0.6
+        }
+    },
+    {
+        "food": "mango",
+        "type": "fruit",
+        "serving": "1 cup",
+        "cup-weight": "165",
+        "nutrients": {
+            "fat": 0.4,
+            "carbohydrate": 28.1,
+            "fiber": 3.0,
+            "sugar": 24.4,
+            "protein": 0.8,
+            "sodium": 3.3,
+            "magnesium": 14.8,
+            "calcium": 16.5,
+            "potassium": 257,
+            "iron": 0.2,
+            "vitaminA": 1262,
+            "vitaminC": 45.7
+        }
+    },
+    {
+        "food": "pineapple",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "165",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 21.6,
+            "fiber": 2.3,
+            "sugar": 16.3,
+            "protein": 0.9,
+            "sodium": 1.7,
+            "magnesium": 19.8,
+            "calcium": 21.5,
+            "potassium": 180,
+            "iron": 0.5,
+            "vitaminA": 95.7,
+            "vitaminC": 78.9
+        }
+    },
+    {
+        "food": "grapes",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "92",
+        "nutrients": {
+            "fat": 0.3,
+            "carbohydrate": 15.8,
+            "fiber": 0.8,
+            "sugar": 14.9,
+            "protein": 0.6,
+            "sodium": 1.8,
+            "magnesium": 4.5,
+            "calcium": 12.9,
+            "potassium": 176,
+            "iron": 0.3,
+            "vitaminA": 92,
+            "vitaminC": 3.7
+        }
+    },
+    {
+        "food": "strawberry",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "144",
+        "nutrients": {
+            "fat": 0.4,
+            "carbohydrate": 11.1,
+            "fiber": 2.9,
+            "sugar": 7,
+            "protein": 1,
+            "sodium": 1.4,
+            "magnesium": 18.7,
+            "calcium": 23,
+            "potassium": 220,
+            "iron": 0.6,
+            "vitaminA": 17.3,
+            "vitaminC": 84.7
+        }
+    },
+    {
+        "food": "blueberry",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "148",
+        "nutrients": {
+            "fat": 0.5,
+            "carbohydrate": 21.4,
+            "fiber": 3.6,
+            "sugar": 14.7,
+            "protein": 1.1,
+            "sodium": 1.5,
+            "magnesium": 8.9,
+            "calcium": 8.9,
+            "potassium": 114,
+            "iron": 0.4,
+            "vitaminA": 79.9,
+            "vitaminC": 14.4
+        }
+    },
+    {
+        "food": "raspberry",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "123",
+        "nutrients": {
+            "fat": 0.8,
+            "carbohydrate": 14.7,
+            "fiber": 8,
+            "sugar": 5.4,
+            "protein": 1.5,
+            "sodium": 1.2,
+            "magnesium": 27.1,
+            "calcium": 30.7,
+            "potassium": 186,
+            "iron": 0.8,
+            "vitaminA": 40.6,
+            "vitaminC": 32.2
+        }
+    },
+    {
+        "food": "blackberry",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "144",
+        "nutrients": {
+            "fat": 0.7,
+            "carbohydrate": 14.7,
+            "fiber": 7.6,
+            "sugar": 7,
+            "protein": 2,
+            "sodium": 1.4,
+            "magnesium": 28.8,
+            "calcium": 41.8,
+            "potassium": 233,
+            "iron": 0.9,
+            "vitaminA": 308,
+            "vitaminC": 30.2
+        }
+    },
+    {
+        "food": "papaya",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "140",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 13.7,
+            "fiber": 2.5,
+            "sugar": 8.3,
+            "protein": 0.9,
+            "sodium": 4.2,
+            "magnesium": 14,
+            "calcium": 33.6,
+            "potassium": 360,
+            "iron": 0.1,
+            "vitaminA": 1531,
+            "vitaminC": 86.5
+        }
+    },
+    {
+        "food": "honeydew",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "170",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 15.5,
+            "fiber": 1.4,
+            "sugar": 13.8,
+            "protein": 0.9,
+            "sodium": 30.6,
+            "magnesium": 17,
+            "calcium": 10.2,
+            "potassium": 388,
+            "iron": 0.3,
+            "vitaminA": 85,
+            "vitaminC": 30.6
+        }
+    },
+    {
+        "food": "cantaloupe",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "160",
+        "nutrients": {
+            "fat": 0.3,
+            "carbohydrate": 14.1,
+            "fiber": 1.4,
+            "sugar": 12.6,
+            "protein": 1.3,
+            "sodium": 25.6,
+            "magnesium": 19.2,
+            "calcium": 14.4,
+            "potassium": 427,
+            "iron": 0.3,
+            "vitaminA": 5412,
+            "vitaminC": 58.7
+        }
+    },
+    {
+        "food": "watermelon",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "152",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 11.5,
+            "fiber": 0.6,
+            "sugar": 9.4,
+            "protein": 0.9,
+            "sodium": 1.5,
+            "magnesium": 15.2,
+            "calcium": 10.6,
+            "potassium": 170,
+            "iron": 0.4,
+            "vitaminA": 865,
+            "vitaminC": 12.3
+        }
+    },
+    {
+        "food": "avocado",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "150",
+        "nutrients": {
+            "fat": 22,
+            "carbohydrate": 12.8,
+            "fiber": 10.1,
+            "sugar": 1,
+            "protein": 3,
+            "sodium": 10.5,
+            "magnesium": 43.5,
+            "calcium": 18,
+            "potassium": 727,
+            "iron": 0.8,
+            "vitaminA": 219,
+            "vitaminC": 15
+        }
+    },
+    {
+        "food": "apple",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "125",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 17.3,
+            "fiber": 3,
+            "sugar": 13,
+            "protein": 0.3,
+            "sodium": 1.3,
+            "magnesium": 6.3,
+            "calcium": 7.5,
+            "potassium": 134,
+            "iron": 0.1,
+            "vitaminA": 67.5,
+            "vitaminC": 5.7
+        }
+    },
+    {
+        "food": "fig",
+        "type": "fruit",
+        "serving": "1 cup",
+        "cup-weight": "150",
+        "nutrients": {
+            "fat": 0.5,
+            "carbohydrate": 28.8,
+            "fiber": 4.5,
+            "sugar": 24.3,
+            "protein": 1.2,
+            "sodium": 1.4,
+            "magnesium": 25.5,
+            "calcium": 52.4,
+            "potassium": 348.7,
+            "iron": 0.5,
+            "vitaminA": 212.7,
+            "vitaminC": 3.0
+        }
+    },
+    {
+        "food": "orange",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "180",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 21.1,
+            "fiber": 4.3,
+            "sugar": 16.8,
+            "protein": 1.7,
+            "sodium": 0,
+            "magnesium": 18,
+            "calcium": 72,
+            "potassium": 326,
+            "iron": 0.2,
+            "vitaminA": 405,
+            "vitaminC": 95.8
+        }
+    },
+    {
+        "food": "lemon",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "212",
+        "nutrients": {
+            "fat": 0.6,
+            "carbohydrate": 19.8,
+            "fiber": 5.9,
+            "sugar": 5.3,
+            "protein": 2.3,
+            "sodium": 4.2,
+            "magnesium": 17,
+            "calcium": 55.1,
+            "potassium": 293,
+            "iron": 1.3,
+            "vitaminA": 46.6,
+            "vitaminC": 112
+        }
+    },
+    {
+        "food": "grapefruit",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "230",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 18.6,
+            "fiber": 2.5,
+            "sugar": 16.1,
+            "protein": 1.4,
+            "sodium": 0,
+            "magnesium": 18.4,
+            "calcium": 27.6,
+            "potassium": 320,
+            "iron": 0.2,
+            "vitaminA": 2132,
+            "vitaminC": 79.1
+        }
+    },
+    {
+        "food": "kiwi",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "177",
+        "nutrients": {
+            "fat": 0.9,
+            "carbohydrate": 25.9,
+            "fiber": 5.3,
+            "sugar": 15.9,
+            "protein": 2,
+            "sodium": 5.3,
+            "magnesium": 30.1,
+            "calcium": 60.2,
+            "potassium": 552,
+            "iron": 0.5,
+            "vitaminA": 154,
+            "vitaminC": 164
+        }
+    },
+    {
+        "food": "peach",
+        "type": "fruit",
+        "serving": "1 cup",
+        "cup-weight": "154",
+        "nutrients": {
+            "fat": 0.4,
+            "carbohydrate": 15.2,
+            "fiber": 2.3,
+            "sugar": 12.9,
+            "protein": 1.4,
+            "sodium": 0,
+            "magnesium": 13.9,
+            "calcium": 9.2,
+            "potassium": 293,
+            "iron": 0.4,
+            "vitaminA": 502,
+            "vitaminC": 10.2
+        }
+    },
+    {
+        "food": "pomegranate",
+        "type": "fruit",
+        "serving": "1 cup",
+        "cup-weight": "174",
+        "nutrients": {
+            "fat": 2.0,
+            "carbohydrate": 32.6,
+            "fiber": 7.0,
+            "sugar": 23.8,
+            "protein": 3.0,
+            "sodium": 5.2,
+            "magnesium": 20.8,
+            "calcium": 17.4,
+            "potassium": 410,
+            "iron": 0.6,
+            "vitaminA": 0,
+            "vitaminC": 17.8
+        }
+    },
+    {
+        "food": "tomato",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "180",
+        "nutrients": {
+            "fat": 0.4,
+            "carbohydrate": 7.1,
+            "fiber": 2.2,
+            "sugar": 4.7,
+            "protein": 1.6,
+            "sodium": 9,
+            "magnesium": 19.8,
+            "calcium": 18,
+            "potassium": 427,
+            "iron": 0.5,
+            "vitaminA": 1499,
+            "vitaminC": 22.9
+        }
+    },
+    {
+        "food": "olive",
+        "type": "fruit",
+        "serving": "1 cup",
+        "cup-weight": "180",
+        "nutrients": {
+            "fat": 19.3,
+            "carbohydrate": 11.6,
+            "fiber": 5.8,
+            "sugar": 0,
+            "protein": 1.3,
+            "sodium": 1221.7,
+            "magnesium": 7.1,
+            "calcium": 158.2,
+            "potassium": 14.2,
+            "iron": 5.8,
+            "vitaminA": 726.6,
+            "vitaminC": 1.9
+        }
+    },
+    {
+        "food": "cucumber",
+        "type": "fruit",
+        "serving": "1 Cup",
+        "cup-weight": "104",
+        "nutrients": {
+            "fat": 0.2,
+            "carbohydrate": 3.8,
+            "fiber": 0.6,
+            "sugar": 1.8,
+            "protein": 0.6,
+            "sodium": 2,
+            "magnesium": 13.6,
+            "calcium": 16.6,
+            "potassium": 152.8,
+            "iron": 0.2,
+            "vitaminA": 109.2,
+            "vitaminC": 3
+        }
+    }
+]

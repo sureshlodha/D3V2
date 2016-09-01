@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Facts</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="header"><h1>Inside Fruits and Vegetables</h1><h4>the best way to plan your diet</h4></div>
+  <div id="main-container" class="page-container">
+    <div id="menu"></div>
+    <div id="display">
+      <div id="display-header">Sorted by <span id="scale-value"></span> content</div>
+    </div>
+    <div id="sidebar">
+      <div id="gda-slider"></div>
+      <div id="gda"></div>
+      <div id="selected"></div>
+    </div>
+    <div id="overview"></div>
+    <div id="info">
+      <h3>Overview</h3>
+      <p>
+        The foods are arranged on a scale.<br>
+        Slide the vertical slider on the right to select the scale on which the foods are placed.<br>
+        Scroll with the middle mouse wheel to zoom in and out of the scale. You can also drag to the left and right to move the scale along.
+      </p>
+        
+      <h3>Code Sources:</h3>
+      <p>
+          <a href="http://bl.ocks.org/mbostock/3231298" target="_blank">Collision Detection</a><br>
+          <a href="http://bl.ocks.org/mbostock/1748247" target="_blank">Force Clustering</a><br>
+          <a href="http://bl.ocks.org/mbostock/3680957" target="_blank">SVG Semantic Zooming</a><br>
+      </p>
+      <h3>Data Sources:</h3>
+      <p>
+          <a href="http://nutritiondata.self.com/" target="_blank">Nutritional Data</a><br>
+      </p>
+      <h4>Group Members:</h4>
+      <ul><li>Alan Chan</li>
+          <li>Samuel Toussaint</li>
+          <li>Zachary Diebold</li>
+      </ul>
+      <h4>Class Info:</h4>
+      <p>CMPS165 - Data Programming for Visualization<br />Winter 2015 - Suresh K. Lodha</p>
+    </div>
+  </div>
+</body>
+<script src = "initialise.js"></script>
+<script src = "getScale.js"></script>
+<script src = "calculateGDA.js"></script>
+<script src = "getOverview.js"></script>
+<script src = "d3.slider.js"></script>
+<script src = "handleSelectedFood.js"></script>
+<script type = "text/javascript">
+    
+    // Global Variables
+    var selected_nutrient = "fat";
+    var selected_foods = {};
+    var colors = {"vegetable" : d3.rgb(82, 84, 163), "fruit" : d3.rgb(181, 207, 107), "nut" : d3.rgb(231, 203, 148)};
+    var nutrients = ["fat", "sodium","potassium","calcium","carbohydrate", "fiber","sugar","protein","vitaminA","vitaminC","magnesium","iron"];
+    var units = ["g","mg","mg","mg","g", "g","g","g"," IU","mg","mg","mg"];
+    var gda = [65,2400,4700,1000,300,25,90,50,3000,60,400,18];
+    
+  
+    // Load JSON data
+    d3.json("data.json", function(error, json) {
+        var data = json;
+        
+        var svg = d3.select("#display")
+          .append("svg")
+          .attr("class", "force-scale");
+        
+        // Initialise the scales then populate
+        initialise(data, svg);
+        getScale(data, svg, selected_nutrient);
+    });
+</script>
+</html>
