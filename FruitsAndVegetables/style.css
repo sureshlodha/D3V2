@@ -1,0 +1,335 @@
+/* Entire page selector */
+    * {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    body {
+      background-color: #fff;
+      margin: 0px;
+    }
+    /* Main HTML sections */
+    #header {
+      height: 55px;
+      margin: 0px;
+      margin-bottom: 35px;
+    }
+    #header h1 {
+      text-align: center;
+      padding-top: 25px;
+      margin: 0px;
+      font-weight:normal;
+      color: #212121;
+    }
+    #header h4 {
+      text-align: center;
+      padding-top: 10px;
+      font-size: 14px;
+      margin: 0px;
+      color: #666;
+      font-style: italic;
+      font-weight:normal;
+    }
+    #main-container {
+      min-width: 600px;
+      height:550px;
+    }
+    #display {
+      display: inline-block;
+      box-shadow: 0px 0px 2px 2px rgb(240,240,240);
+      border-radius: 2px;
+      margin-left: auto;
+      margin-right: auto;
+      min-width: 350px;
+      width: 65%;
+    }
+    #display-header {
+      padding: 12px;
+      font-size: 18px;
+              border-bottom: 1.5px solid #ddd;
+
+    }
+    #sidebar {
+      width: 380px;
+      float: right;
+      display: inline-block;
+    }
+    #nutrients {
+      margin-top: 50px;
+      display:inline-block;
+      float: right;
+      width: 50%
+    }
+    #info {
+      box-shadow: 0px 0px 2px 2px rgb(240,240,240);
+      border-radius: 2px;
+      padding: 10px;
+      margin: 20px 0px;
+      width: 870px;
+    }
+  
+    /* Force-scale styles */
+    .force-scale {
+        height: 500px;
+        /*border: 1px solid red;*/
+        width: 100%;
+        
+    }
+    .force-scale-node circle {
+        stroke-width: 1.5px;
+    }
+    .force-text {
+        font-family: Helvetica, sans-serif;
+        font-size: 32px;
+    }
+    
+    /* Nutrients box div */
+    .food-overview {
+        position: absolute;
+        line-height: 1;
+        font-weight: bold;
+        padding: 8px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        border-radius: 10px;
+    }
+    .food-overview-food {
+        font-size: 18px;
+        color: #FF3030;
+    }
+    .food-overview-serving {
+        float: right;
+    }
+    .food-overview.hidden {
+        display: none;
+    }
+    
+    /* Selection Menu */
+    .menu-item {
+        font-size: 30px;
+        display: inline-block;
+        cursor: default;
+        padding: 10px;
+        margin: 0px;
+        border: 1px solid;
+        border-right: 0px;
+        border-color: #1F003D;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        -webkit-user-select: none; /* Chrome/Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */    
+    }
+  
+    .page-container {
+      min-width: 600px;
+      width: 90%;
+      margin: auto;
+      margin-top: 30px;
+      padding: 20px;
+    }
+    
+    /* Selected Foods */
+    .selected-food-item{
+        overflow: auto;
+        background-color: #fafafa;
+        border-top: 1px solid #ebebeb;
+        font-size: 13px;
+        padding: 0px 15px;
+    }
+  
+    .selected-food-item img {
+      vertical-align:middle;
+      margin-left: -10px;
+      margin-right: 5px;
+      width: 35px;
+      height: 35px;
+    }    
+    .selected-food-serving{
+        padding-right:5px;
+        float: right;
+        text-align: left;
+        line-height: 35px;
+    }
+    
+    .selected-food-control{
+        float: right;
+        display: inline;
+        line-height: 35px;
+    }
+    
+    .selected-plusminus{
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 10px;
+        display: inline;
+        cursor: default;
+        margin-left: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+        color: #fefefe;
+        border-radius: 3px;
+        background-color: rgba(50,50,50, 0.5);
+        -webkit-user-select: none; /* Chrome/Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */    
+    }
+  
+    /* GDA Section */
+    #gda {
+        box-shadow: 0px 0px 2px 2px rgb(240,240,240);
+        border-radius: 2px;
+        color: #000;
+        width: 90%;
+        display:inline-block;
+    }
+    #gda-slider {
+      display:inline-block;
+      border: none;
+      margin-right:10px;
+      width: 5px;
+      background-color:#ccc;
+      margin-bottom:65px;
+      height: 210px;
+    }
+    .gda-header {
+        padding: 12px;
+        font-size: 18px;
+        border-bottom: 1.5px solid #ddd;
+    }
+    .gda-nutrient-container {
+        overflow: auto;
+        background-color: #fafafa;
+        border-top: 1px solid #ebebeb;
+        font-size: 13px;
+        padding: 6px 15px;
+    }
+    .gda-nutrient {
+      font-weight: bold;
+    }
+    .gda-amount {
+      padding-left: 6px;
+    }
+    .gda-percentage {
+        float: right;
+    }
+  
+    /* Vitamin Container */
+    .vitamin-container {
+      padding: 0px;
+    }
+    #vitaminA-container {
+        border-top: 2px solid #ddd;
+    }
+    .vitamin-container div {
+      display: inline-block;
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+      box-sizing: border-box;         /* Opera/IE 8+ */
+    }
+    .vitamin-container div:first-child {
+      margin-right: 5%;
+      padding: 6px 6px 6px 15px;
+      width: 50%;
+    }
+    .vitamin-container div:nth-child(2) {
+      padding: 6px 15px 6px 6px;
+      width: 45%;
+    }
+    .vitamin-container .gda-nutrient {
+      font-weight: normal;
+    }
+    .vitamin-container .gda-amount {
+      display: none;
+    }
+  
+    /* Selection Section */
+  
+    #selected {
+      margin-top: 30px;
+      box-shadow: 0px 0px 2px 2px rgb(240,240,240);
+      border-radius: 2px;
+      display: table;
+      color: #000;
+      width: 90%;
+      margin-left:18px;
+    }
+  
+    /* X Axis */
+    .xaxis path,
+    .xaxis line {
+      fill: none;
+      stroke: black;
+      shape-rendering: crispEdges;
+    }
+    .xaxis text{
+      font-family: sans-serif;
+      font-size: 11px;
+    }
+  .d3-slider {
+    position: relative;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+    border: 1px solid #aaaaaa;
+    z-index: 2;
+    }
+
+
+    .d3-slider-range {
+      background:#2980b9;
+      left:0px;
+      right:0px;
+      height: 0.8em;
+      position: absolute;
+    }
+
+    .d3-slider-range-vertical {
+      background:#2980b9;
+      left:0px;
+      right:0px;
+      position: absolute;
+      top:0;
+    }
+
+    .d3-slider-vertical {
+        width: .8em;
+        height: 100px;
+    }      
+
+    .d3-slider-handle {
+        position: absolute;
+        width: 1.2em;
+        height: 1.2em;
+        border: 1px solid #d3d3d3;
+        border-radius: 4px;
+        background: #eee;
+        background: linear-gradient(to bottom, #eee 0%, #ddd 100%);
+        z-index: 3;
+    }
+
+    .d3-slider-handle:hover {
+        border: 1px solid #999999;
+    }
+
+    .d3-slider-axis {
+        position: relative;
+        z-index: 1;    
+    }
+
+
+    .d3-slider-axis path {
+        stroke-width: 0;
+        fill: none;
+    }
+
+    .d3-slider-axis line {
+        fill: none;
+        stroke: #aaa;
+        shape-rendering: crispEdges;
+    }
+
+    .d3-slider-vertical .d3-slider-handle {
+        left: -8px;
+        margin-left: 0;
+        margin-bottom: -.6em;      
+    }
